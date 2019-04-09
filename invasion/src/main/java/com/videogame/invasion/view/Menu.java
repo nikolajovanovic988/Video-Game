@@ -21,6 +21,10 @@ import com.videogame.invasion.view.play.Play;
 
 public class Menu extends JPanel implements ActionListener, KeyListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Controller controller;
 	private CreditsView creditsView;
 	private HighScoreView highScoreView;

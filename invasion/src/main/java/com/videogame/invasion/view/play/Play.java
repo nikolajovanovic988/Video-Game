@@ -7,8 +7,8 @@ public class Play {
 
 	private ShipsFactory shipsFactory;
 
-	private int numOfShips = 1;
-	private EnemyShip[][] ships = new EnemyShip[1][numOfShips];
+	private int numOfShips = 10;
+	private EnemyShip[][] ships = new EnemyShip[4][numOfShips];
 	private boolean setup = false;
 
 	private PlayerShip palyerShip;

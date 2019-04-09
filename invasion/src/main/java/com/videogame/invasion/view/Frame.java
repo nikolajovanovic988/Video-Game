@@ -7,6 +7,10 @@ import javax.swing.JFrame;
 
 public class Frame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Menu container;
 
 	public Frame(Menu container) {
